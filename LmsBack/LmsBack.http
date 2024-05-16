@@ -1,0 +1,6 @@
+@LmsBack_HostAddress = http://localhost:5118
+
+GET {{LmsBack_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
