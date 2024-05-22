@@ -1,14 +1,24 @@
-﻿namespace LmsBack.Model
-{
-    public class Parent
-    {
+﻿using LmsBack.Annotations;
+using System.ComponentModel.DataAnnotations;
+
+namespace LmsBack.Model {
+    public class Parent {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public string Patronymic { get; set; }
-        public string Phone { get; set; }
+        [Required(ErrorMessage = "Поле не повинно бути порожнім!")]
+        public string? Name { get; set; }
+        [Required(ErrorMessage = "Поле не повинно бути порожнім!")]
+        public string? Surname { get; set; }
+        [Required(ErrorMessage = "Поле не повинно бути порожнім!")]
+        public string? Patronymic { get; set; }
+        [Phone(ErrorMessage = "Неправильний формат телефонного номера!")]
+        public string? Phone { get; set; }
+        [EmailAddress(ErrorMessage = "Неправильний формат адреси електронної пошти!")]
         public string? Email { get; set; }
+        [Required(ErrorMessage = "Поле не повинно бути порожнім!")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        [FutureDate(ErrorMessage = "Дата не може бути в майбутньому!")]
         public DateTime? BirthDate { get; set; }
-        public ICollection<Student> Students { get; set; }
+        public virtual ICollection<Student>? Students { get; set; }
     }
 }
