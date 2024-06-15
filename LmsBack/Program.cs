@@ -4,6 +4,7 @@ using LmsBack.Repositories;
 using LmsBack;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddCors();
 
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
@@ -33,6 +34,8 @@ builder.Services.AddScoped<IRepository<TimeOfLesson>, Repository<TimeOfLesson>>(
 builder.Services.AddScoped<ICryptography, Cryptography>();
 
 var app = builder.Build();
+
+app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod());
 
 if (app.Environment.IsDevelopment()){
     app.UseSwagger();
