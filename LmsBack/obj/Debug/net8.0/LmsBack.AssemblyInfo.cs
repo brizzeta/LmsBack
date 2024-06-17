@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LmsBack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc5a533cbe157ac481e3cf024c16aeebca3fab7e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+554b53a0004a8675e3eee43dbb8408529ce15956")]
 [assembly: System.Reflection.AssemblyProductAttribute("LmsBack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LmsBack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
