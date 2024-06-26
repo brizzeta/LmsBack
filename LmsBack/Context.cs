@@ -47,6 +47,7 @@ namespace LmsBack {
                     Salt = salt,
                     Password = cryptography.HashPassword("WeRt2345", salt),
                 });
+                SaveChanges();
                 Admins!.Add(new Admin {
                     Name = "Данило",
                     Surname = "Червоний",
