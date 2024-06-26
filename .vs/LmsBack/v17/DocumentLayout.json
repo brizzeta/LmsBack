@@ -1,28 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\LMS\\LmsBack\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B36D9F-67A6-43C1-9D5D-454899116619}|LmsBack\\LmsBack.csproj|d:\\projects\\lms\\lmsback\\lmsback\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B36D9F-67A6-43C1-9D5D-454899116619}|LmsBack\\LmsBack.csproj|solutionrelative:lmsback\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B36D9F-67A6-43C1-9D5D-454899116619}|LmsBack\\LmsBack.csproj|d:\\projects\\lms\\lmsback\\lmsback\\services\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B36D9F-67A6-43C1-9D5D-454899116619}|LmsBack\\LmsBack.csproj|solutionrelative:lmsback\\services\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B36D9F-67A6-43C1-9D5D-454899116619}|LmsBack\\LmsBack.csproj|d:\\projects\\lms\\lmsback\\lmsback\\lmsback.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B3B36D9F-67A6-43C1-9D5D-454899116619}|LmsBack\\LmsBack.csproj|solutionrelative:lmsback\\lmsback.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B36D9F-67A6-43C1-9D5D-454899116619}|LmsBack\\LmsBack.csproj|d:\\projects\\lms\\lmsback\\lmsback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B36D9F-67A6-43C1-9D5D-454899116619}|LmsBack\\LmsBack.csproj|solutionrelative:lmsback\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B36D9F-67A6-43C1-9D5D-454899116619}|LmsBack\\LmsBack.csproj|d:\\projects\\lms\\lmsback\\lmsback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B3B36D9F-67A6-43C1-9D5D-454899116619}|LmsBack\\LmsBack.csproj|solutionrelative:lmsback\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\\u041C\u043E\u044F \u0431\u0430\u0437\u0430\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0420\u0435\u043F\u043E\u0437\u0438\u0442\u043E\u0440\u0438\u0438\\LmsBack\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,76 +9,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Projects\\LMS\\LmsBack\\LmsBack\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "LmsBack\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Projects\\LMS\\LmsBack\\LmsBack\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "LmsBack\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBsAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T00:05:18.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projects\\LMS\\LmsBack\\LmsBack\\appsettings.json",
-              "RelativeDocumentMoniker": "LmsBack\\appsettings.json",
-              "ToolTip": "D:\\Projects\\LMS\\LmsBack\\LmsBack\\appsettings.json",
-              "RelativeToolTip": "LmsBack\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-14T13:43:25.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LmsBack",
-              "DocumentMoniker": "D:\\Projects\\LMS\\LmsBack\\LmsBack\\LmsBack.csproj",
-              "RelativeDocumentMoniker": "LmsBack\\LmsBack.csproj",
-              "ToolTip": "D:\\Projects\\LMS\\LmsBack\\LmsBack\\LmsBack.csproj",
-              "RelativeToolTip": "LmsBack\\LmsBack.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-14T13:41:57.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "D:\\Projects\\LMS\\LmsBack\\LmsBack\\Services\\Repository.cs",
-              "RelativeDocumentMoniker": "LmsBack\\Services\\Repository.cs",
-              "ToolTip": "D:\\Projects\\LMS\\LmsBack\\LmsBack\\Services\\Repository.cs",
-              "RelativeToolTip": "LmsBack\\Services\\Repository.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T13:41:53.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\LMS\\LmsBack\\LmsBack\\Program.cs",
-              "RelativeDocumentMoniker": "LmsBack\\Program.cs",
-              "ToolTip": "D:\\Projects\\LMS\\LmsBack\\LmsBack\\Program.cs",
-              "RelativeToolTip": "LmsBack\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T13:41:50.77Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -1,4 +1,5 @@
 ﻿using LmsBack.Model;
+using LmsBack.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace LmsBack {
@@ -23,7 +24,9 @@ namespace LmsBack {
         public DbSet<Schedule> Schedules { get; set; }
         public DbSet<TimeOfLesson> TimeOfLessons { get; set; }
         #endregion
-        public Context(DbContextOptions<Context> options) : base(options) {
+        ICryptography cryptography;
+        public Context(DbContextOptions<Context> options, ICryptography crypt) : base(options) {
+            cryptography = crypt;
             if (Database.EnsureCreated()) {
                 Roles!.AddRange(new List<Role>() {
                     new Role { Name="Director" },
@@ -37,6 +40,22 @@ namespace LmsBack {
                     new Model.DayOfWeek { Name = "Friday" },
                     new Model.DayOfWeek { Name = "Saturday" },
                     new Model.DayOfWeek { Name = "Sunday" }
+                });
+                string salt = cryptography.GenerateSalt();
+                Accounts!.Add(new Account {
+                    Login = "Diktator",
+                    Salt = salt,
+                    Password = cryptography.HashPassword("WeRt2345", salt),
+                });
+                Admins!.Add(new Admin {
+                    Name = "Данило",
+                    Surname = "Червоний",
+                    Patronymic = "Юрійович",
+                    Phone = "+380502953439",
+                    Email = "dychervony@gmail.com",
+                    BirthDate = new DateTime(2004, 8, 13),
+                    Account = Accounts.Single(a => a.Login == "Diktator"),
+                    Role = Roles.Single(r => r.Name == "Director")
                 });
                 SaveChanges();
             }

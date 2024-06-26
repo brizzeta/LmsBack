@@ -4,10 +4,10 @@ using LmsBack.Repositories;
 using LmsBack;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddCors();
 
+builder.Services.AddCors(); // Добавление подключения к фронт-энду
 builder.Services.AddControllers();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(); // Свогер для отображение запроссов
 
 // Получаем строку подключения из файла и добавляем ее в контекст в качестве сервиса в приложение
 string? connection = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -35,6 +35,7 @@ builder.Services.AddScoped<ICryptography, Cryptography>();
 
 var app = builder.Build();
 
+// Подключение к фронтэнду, разрешение использование запроссов
 app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod());
 
 if (app.Environment.IsDevelopment()){
