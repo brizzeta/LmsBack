@@ -14,7 +14,7 @@ namespace LmsBack {
         public DbSet<Parent> Parents { get; set; }
         public DbSet<Group> Groups { get; set; }
         public DbSet<Course> Courses { get; set; }
-        public DbSet<Attendence> Attendences { get; set; }
+        public DbSet<Attendance> Attendances { get; set; }
         public DbSet<HomeworkMark> HomeworkMarks { get; set; }
         public DbSet<HomeworkStudent> HomeworkStudents { get; set; }
         public DbSet<HomeworkTeacher> HomeworkTeachers { get; set; }

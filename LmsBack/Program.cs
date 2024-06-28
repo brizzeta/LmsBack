@@ -16,7 +16,7 @@ builder.Services.AddDbContext<Context>(options => options.UseSqlServer(connectio
 // Подключаем сервисы репозиториев для работы с контекстом бд
 builder.Services.AddScoped<IRepository<Account>, Repository<Account>>();
 builder.Services.AddScoped<IRepository<Admin>, Repository<Admin>>();
-builder.Services.AddScoped<IRepository<Attendence>, Repository<Attendence>>();
+builder.Services.AddScoped<IRepository<Attendance>, Repository<Attendance>>();
 builder.Services.AddScoped<IRepository<Course>, Repository<Course>>();
 builder.Services.AddScoped<IRepository<Group>, Repository<Group>>();
 builder.Services.AddScoped<IRepository<HomeworkMark>, Repository<HomeworkMark>>();
