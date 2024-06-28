@@ -1,5 +1,6 @@
 ﻿using LmsBack.Annotations;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace LmsBack.Model {
     public class Manager {
@@ -20,6 +21,10 @@ namespace LmsBack.Model {
         [FutureDate(ErrorMessage = "Дата не може бути в майбутньому!")]
         public DateTime BirthDate { get; set; }
         public virtual Account? Account { get; set; }
-        public virtual ICollection<Group>? Groups { get; set; }
+        [JsonIgnore]
+        public virtual ICollection<Group>? Groups
+        {
+            get; set;
+        }
     }
 }
