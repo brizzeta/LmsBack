@@ -28,7 +28,8 @@ namespace LmsBack.Model {
         {
             get; set;
         }
-        public virtual ICollection<Attendence>? Attendences { get; set; }
+        public virtual ICollection<Attendance>? Attendances { get; set; }   // !!!
+        [JsonIgnore]
         public virtual ICollection<LessonMark>? LessonMarks { get; set; }
     }
 }
